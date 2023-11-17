@@ -29,6 +29,7 @@
             .intel-hub-h3 {
                 font-size: 24px;
                 font-family: "TWK Everett";
+                color: #005A5A !important;
                 
             }
 
@@ -128,10 +129,17 @@
     }
 
 
-    .intel-grid-item {
+    .intel-hub-grid-img {
                 display: flex;
                 justify-content: center; 
+
             }
+
+    .intel-hub-grid-card-white {
+        background-color: white;
+        padding: 30px;
+
+    }
 
     .intel-grid-container {
                 display: grid;
@@ -188,14 +196,13 @@
         /* links */
 
         .intel-hub-link {
-        text-decoration: none;
-        color: #005A5A;
-        font-weight: bold;
+        /* text-decoration: none; */
+        color: #0068B5;
     }
 
     .intel-hub-link:hover  {
         text-decoration: none;
-        opacity: 0.9;
+        opacity: 0.6;
         
     }
 
@@ -305,14 +312,14 @@
 
         <!-- Client computing, datacenter, propel + -->
         <div class="intel-hub-grid-container">
-            <div>
+            <div class="intel-hub-grid-card-white">
               
-                <div class="intel-grid-item">
+                <div class="intel-hub-grid-img">
                     <img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/Client-Computing.png" alt="">
                 </div>
                 <h3 class="intel-hub-h3">Client Computing</h3>
                 <p class="intel-hub-p">Better computers, better business. At Intel, technology continues to evolve – so businesses can, too.</p>
-                <ul class="intel-hub-p">
+                <ul class="intel-hub-p-card">
                     <li>Intel® Core™ Processors</li>
                     <li>Intel® Arc™ Graphics</li>
                     <li>Intel® Iris® Xe Graphics</li>
@@ -322,11 +329,11 @@
 
             </div>
 
-            <div>
-                <div class="intel-grid-item"><img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/Datacenter.png" alt=""></div>
+            <div class="intel-hub-grid-card-white">
+                <div class="intel-hub-grid-img"><img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/Datacenter.png" alt=""></div>
                 <h3 class="intel-hub-h3">Datacenter</h3>
                 <p class="intel-hub-p">The data center enables your organization to stay ahead in an ever-changing business environment.</p>
-                <ul class="intel-hub-p">
+                <ul class="intel-hub-p-card">
                    <a class="intel-hub-link" href="https://eu.tdsynnex.com/gcc/intelxeon"> <li>Intel® Xeon®</li></a>
                    <a class="intel-hub-link" href="https://eu.tdsynnex.com/intel-nex"><li>Intel Ethernet</li></a> 
                     <li>Intel® Data Center GPU Flex Series</li>
@@ -336,13 +343,13 @@
 
             </div>
 
-            <div>
-                <div class="intel-grid-item"><img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/propel.png" alt=""></div>  
+            <div class="intel-hub-grid-card-white">
+                <div class="intel-hub-grid-img"><img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/propel.png" alt=""></div>  
                 <h3 class="intel-hub-h3">Propel +</h3>
-                <p class="intel-hub-p">What if you had a partner to help you understand, streamline and maximize everything the Intel Partner Alliance (IPA) has to offer?
+                <p class="intel-hub-p-card">What if you had a partner to help you understand, streamline and maximize everything the Intel Partner Alliance (IPA) has to offer?
                     <br>
                     <br>
-                   <a class="intel-hub-link" href="https://eu.tdsynnex.com/intel-propel"> Learn more about how to become a Propel+ member.</a>
+                    Learn more about<a class="intel-hub-link" href="https://eu.tdsynnex.com/intel-propel"> how to become a Propel+ member.</a>
                     </p>
             </div>
         </div>
