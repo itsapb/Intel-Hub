@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+   
+    <style>
+
+        /* fonts */
+            @font-face {
+                font-family: "TWK Everett";
+                src: url(fonts/TWKEverett-Medium.otf) format("truetype");
+            }
+
+
+                .intel-hub-h1 {
+                color: #005A5A !important;
+                font-size: 40px;
+                font-family: "TWK Everett";
+            }
+
+            .intel-hub-h2 {
+                color: #005A5A;
+                font-size: 26px;
+                font-family: "TWK Everett";
+            }
+
+            .intel-hub-h3 {
+                font-size: 24px;
+                font-family: "TWK Everett";
+                
+            }
+
+            .intel-hub-p {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                line-height: 35px;
+            }
+
+
+
+            .intel-hub-content {
+                max-width: 1400px !important;
+                margin: auto !important;
+            } 
+
+            .intel-hub-section {
+                width: 1100px;
+            }
+
+
+            .intel-hub-img {
+                width: 100%;
+            }
+
+            .intel-hub-max-width-container {
+                max-width:1400px !important;
+                width: 100%;
+                margin-inline: auto;
+                
+            }
+
+            .intel-hub-container-hero {
+                padding: 60px ;
+            }
+           
+
+            /* grid styling 3 column */
+            .intel-hub-grid-item {
+                display: flex;
+                /* justify-content: center;  */
+            }
+
+            .intel-hub-grid-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 70px;
+                padding: 50px;
+                background-color: #F5F5F5;
+                
+            }
+
+            .intel-hub-white-card {
+            background-color: white;
+            padding: 20px;
+
+            }
+
+            .intel-hub-img-card {
+                width: 100%;
+
+            }
+
+      /* grey background 4 card block / grid */
+
+    
+    .intel-hub-h3-card {
+        font-size: 24px;
+        font-family: "TWK Everett";
+        color: #005A5A;
+        
+        
+    }
+
+    .intel-hub-p-blue-card {
+        font-size: 20px;
+        font-family: "TWK Everett";
+        color: #005A5A;
+    }
+
+    .intel-hub-p-card {
+        font-size: 18px;
+        line-height: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       
+    }
+
+    .intel-hub-link {
+        text-decoration: none;
+        color: #005A5A;
+    }
+
+    .intel-hub-link:hover  {
+        text-decoration: none;
+        opacity: 0.9;
+        
+    }
+
+
+    .intel-grid-item {
+                display: flex;
+                justify-content: center; 
+            }
+
+    .intel-grid-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 50px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+    .intel-hub-white-card {
+        background-color: #F5F5F5;;
+        padding: 20px;
+
+    }
+
+    .intel-hub-img-card {
+        width: 100%;
+
+    }
+    /*  */
+
+            .intel-hub-pad-50 {
+                padding-left: 50px;
+            }
+
+            /* two column flex */
+
+            .intel-hub-flex {
+            display: flex;
+            gap: 80px;
+            width: 100%;
+            justify-content: center;
+            }
+
+            .intel-hub-col-1 {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .intel-hub-flex-col-2 {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+ 
+        .intel-hub-img {
+            width: 100%;
+        }
+
+
+        /* links */
+
+        .intel-hub-link {
+        text-decoration: none;
+        color: #005A5A;
+    }
+
+    .intel-hub-link:hover  {
+        text-decoration: none;
+        opacity: 0.9;
+        
+    }
+
+    .intel-propel-btn {
+        background-color: #005A5A;
+        color: white;
+        font-family: "TWK Everett";
+        font-size: 18px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px ;
+        padding-right: 40px;
+        border: none;
+    }
+
+    .intel-propel-btn:hover {
+        opacity: 0.9;
+        cursor:pointer;
+    }
+
+        /* footer */
+
+        .intel-hub-footer {
+            max-width: 1400px !important;
+            width: 100%;
+            background-color: #005A5A;
+            padding: 30px 0px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .intel-hub-footer-copy {
+            color: white;
+        }
+
+        .intel-hub-footer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 70px;
+            padding-left: 100px;
+            padding-right: 100px;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .intel-hub-a-tag {
+            text-decoration: none;
+            color: lightgray;
+
+        }
+        .intel-hub-a-tag:hover{
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .intel-hub-footer-h {
+            color: #F5F5F5;
+            font-size: 24px;
+            font-family: "TWK Everett";
+        }
+
+        .intel-hub-footer-p {
+            color: #F5F5F5;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .intel-propel-footer-btn {
+        background-color: white;
+        color: #005A5A;
+        font-family: "TWK Everett";
+        font-size: 18px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px ;
+        padding-right: 40px;
+        border: none;
+        width: 100%;
+    }
+
+    .intel-propel-footer-btn:hover {
+        opacity: 0.9;
+        cursor:pointer;
+    }
+
+    </style>
+</head>
+
+<body class="intel-hub-max-width-container">
+    <!-- opening div -->
+    <div>
+
+    <!-- hero -->
+        <div>
+            <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/Intel-Hub-Hero.png" alt="">
+        </div>
+   
+        <!-- hero paragraph text -->
+       
+        <div class="intel-hub-container-hero" >
+            <h3 class="intel-hub-h3-card "> Intel shapes the future of technology, creating world-changing innovations that improve the life of every person on the planet. </h3>
+            <p class="intel-hub-p">
+               Together, TD Synnex provides a broad array of IT solutions to meet every customer need, from data center transformation to powerful and secure client devices, new approaches to memory and storage, and components to develop the Internet of Things. Our TD SYNNEX team members are seasoned experts on all things Intel. Whether it’s simply product fulfilment or full solution design services, TD SYNNEX is your go-to-partner.
+            </p>
+        </div>
+
+        <!-- Client computing, datacenter, propel + -->
+        <div class="intel-hub-grid-container">
+            <div>
+              
+                <div class="intel-grid-item">
+                    <img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/Client-Computing.png" alt="">
+                </div>
+                <h3 class="intel-hub-h3">Client Computing</h3>
+                <p class="intel-hub-p">Better computers, better business. At Intel, technology continues to evolve – so businesses can, too.</p>
+                <ul class="intel-hub-p">
+                    <li>Intel® Core™ Processors</li>
+                    <li>Intel® Arc™ Graphics</li>
+                    <li>Intel® Iris® Xe Graphics</li>
+                    <li>Intel® Evo™</li>
+                    <li>Intel vPro®</li>
+                </ul>
+
+            </div>
+
+            <div>
+                <div class="intel-grid-item"><img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/Datacenter.png" alt=""></div>
+                <h3 class="intel-hub-h3">Datacenter</h3>
+                <p class="intel-hub-p">The data center enables your organization to stay ahead in an ever-changing business environment.</p>
+                <ul class="intel-hub-p">
+                   <a class="intel-hub-link" href="https://eu.tdsynnex.com/gcc/intelxeon"> <li>Intel® Xeon®</li></a>
+                   <a class="intel-hub-link" href="https://eu.tdsynnex.com/intel-nex"><li>Intel Ethernet</li></a> 
+                    <li>Intel® Data Center GPU Flex Series</li>
+                    <li>Xeon® Advisor Tool</li>
+                    <li>The Intel® Agilex™</li>
+                </ul>
+
+            </div>
+
+            <div>
+                <div class="intel-grid-item"><img src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/Datacenter.png" alt=""></div>  
+                <h3 class="intel-hub-h3">Propel +</h3>
+                <p class="intel-hub-p">What if you had a partner to help you understand, streamline and maximize everything the Intel Partner Alliance (IPA) has to offer?
+                    <br>
+                    <br>
+                   <a class="intel-hub-link" href="https://eu.tdsynnex.com/intel-propel"> Learn more about how to become a Propel+ member.</a>
+                    </p>
+            </div>
+        </div>
+
+        <div class="intel-hub-h2">
+            <h1 class="intel-hub-pad-50">Latest News</h1>
+        </div>
+
+
+        <!--  News Grid -->
+
+        <div class="intel-grid-container">
+            <div >
+                <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/core-14th.png" alt="">
+                <div class="intel-hub-white-card">
+                <h3 class="intel-hub-h3-card">Introducing 14th Gen CPU Processors </h3>
+                <p class="intel-hub-p-card">Discover how the Intel® Core™ 14th Gen processors enable enhanced teamwork, productivity, creativity, and gaming with their superior performance and multitasking capabilities.
+                    <br>
+                    <br>
+                </p>   
+                <a href=""><button class="intel-propel-btn">Learn More</button> </a>               
+                </div>
+            </div>
+
+            <div>
+                <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/intel-arc-rec.png" alt="">
+                <div class="intel-hub-white-card">
+                <h3 class="intel-hub-h3-card ">Introducing the Intel® Arc™ GPU for the Edge </h3>
+                <p class="intel-hub-p-card">Create stunning visual experiences for retail, education, and commercial gaming. Deploy media processing and AI-enhanced applications from smart factories to smart cities. Boost the performance of edge workloads with Intel® Arc™ GPU.</p>
+                <a href="https://www.intel.com/content/www/us/en/products/details/discrete-gpus/arc/edge.html"><button class="intel-propel-btn">Learn More</button></a>  
+                </div>
+                   
+            </div>
+
+            <div>
+                <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/arc-sigid.jpg" alt="">
+                <div class="intel-hub-white-card">
+                <h3 class="intel-hub-h3-card ">Introducing Intel® Arc™ A580 Graphics </h3>
+                <p class="intel-hub-p-card">Dive into immersive 1080p gaming and advanced content creation with Intel® Arc™ A580 graphics. Learn about the latest technologies that will equip you to play and create now and into the future.
+                    <br>
+                    <br>
+                </p>   
+                <a href="https://www.intel.com/content/www/us/en/products/docs/discrete-gpus/arc/desktop/a-series/5.html"><button class="intel-propel-btn">Learn More</button></a>                    
+                </div>
+            </div>
+
+            <div>
+                <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/arc-pro.png" alt="">
+                <div class="intel-hub-white-card">
+                <h3 class="intel-hub-h3-card">Introducing the Intel® Arc™ Pro A60 Graphics</h3>
+                <p class="intel-hub-p-card">Offering more raw performance, AI cores, and memory bandwidth, Intel® Arc™ Pro A60 graphics unites the latest in visual technologies and rich content creation in a standard, single-slot form factor for professional users.</p>
+                <a href="https://www.intel.com/content/www/us/en/products/docs/discrete-gpus/arc/workstations/a-series/a60.html"><button class="intel-propel-btn">Learn More</button></a>     
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <!--  two column flex -->
+        
+        <!-- <div class="intel-hub-flex">
+            <div class="intel-hub-col-1">
+                <div>
+                    <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/core-14th.png" alt="">
+                    <h3 class="intel-hub-heading">Introducing 14th Gen CPU Processors </h3>
+                    <p>Discover how the Intel® Core™ 14th Gen processors enable enhanced teamwork, productivity, creativity, and gaming with their superior performance and multitasking capabilities.</p>                   
+                </div>
+             </div>
+
+            <div class="intel-hub-flex-col-2">
+
+                <div>
+                    <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/intel-arc-rec.png" alt="">
+                    <h3 class="intel-hub-heading">Introducing the Intel® Arc™ GPU for the Edge </h3>
+                    <p>Create stunning visual experiences for retail, education, and commercial gaming. Deploy media processing and AI-enhanced applications from smart factories to smart cities. Boost the performance of edge workloads with Intel® Arc™ GPU.</p>
+                </div>
+            </div>
+        </div> -->
+
+               <!--  two column flex -->
+<!--         
+               <div class="intel-hub-flex">
+                <div class="intel-hub-col-1">
+                    <div>
+                        <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/arc-sigid.jpg" alt="">
+                        <h3 class="intel-hub-heading">Introducing 14th Gen CPU Processors </h3>
+                        <p>Dive into immersive 1080p gaming and advanced content creation with Intel® Arc™ A580 graphics. Learn about the latest technologies that will equip you to play and create now and into the future.</p>                   
+                    </div>
+                 </div>
+    
+                <div class="intel-hub-flex-col-2">
+    
+                    <div>
+                        <img class="intel-hub-img" src="https://eu.techdata.com/Nuploads/Country/COM/Images/EU_Website/arc-pro.png" alt="">
+                        <h3 class="intel-hub-heading">Introducing the Intel® Arc™ GPU for the Edge </h3>
+                        <p>Offering more raw performance, AI cores, and memory bandwidth, Intel® Arc™ Pro A60 graphics unites the latest in visual technologies and rich content creation in a standard, single-slot form factor for professional users.</p>
+                    </div>
+                </div>
+            </div> -->
+<!-- footer -->
+            <div class="intel-hub-footer">
+                <div>
+                    <h3 class="intel-hub-footer-copy intel-hub-footer-h">Get Started With TD SYNNEX</h3>
+                    <p class="intel-hub-footer-copy intel-hub-footer-p">Interested in learning new ways to grow your Intel business? Contact a member of our dedicated team.</p>
+                    <!-- flex this box! -->
+                    <div class="intel-hub-footer-grid">
+                        <a class="intel-hub-a-tag" href="https://eu.tdsynnex.com/Intouch/MVC/Microsite/Public?categorypageid=714&msmenuid=2015&corpregionid=50&Purpose=Microsite">
+                        <button class="intel-propel-footer-btn">Become a Reseller for Intel with TD SYNNEX.</button>
+                        </a>
+                        <a href="https://eu.tdsynnex.com/Intouch/MVC/Microsite/Public?categorypageid=713&msmenuid=2013&corpregionid=50&Purpose=Microsite">
+                        <button class="intel-propel-footer-btn"> Contact TD SYNNEX to learn more about the advantages of Intel® technology.</button>
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+<!-- closing div -->
+    </div> 
+</body>
+</html>
